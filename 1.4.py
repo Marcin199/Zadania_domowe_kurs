@@ -1,7 +1,7 @@
 class hotel:
     def policz(self):
         wiek_1 = int(input("Witaj, proszę podaj swój wiek : "))
-        ile_n = int(input("Ile nocy zamierzasz spędzić w hotelu ?"))
+        ile_n = int(input("Ile nocy zamierzasz spędzić w hotelu ? "))
 
         if wiek_1 <= 18:
             op_noc = 100
