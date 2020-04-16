@@ -5,9 +5,7 @@ class Bmi:
         wz_1 = float(input("Proszę podaj swój wzrost w (m) : "))
         wg_1 = float(input("Proszę podaj swoją wagę w (Kg) : "))
 
-        #print(wz_1)
-        #print(wg_1)
-        #print(type(wg_1))
+
         bmi = wg_1 / wz_1
         #print(bmi)
 
