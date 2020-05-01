@@ -8,7 +8,7 @@ Np. dla parametru 3 powinno się wypisać:
 * * * * *
 ```
 """
-
+"""
 zm_1 = int(input("Podaj liczbę całkowitą : "))
 
 if zm_1 == 3:
@@ -21,6 +21,15 @@ elif zm_1 > 3:
           "* * * * *\n"*zm_1)
 else:
     pass
+"""
+
+ilosc = int(input("Podaj liczbę całkowitą : "))
+
+def choinka(ilosc):
+    for i in range(ilosc):
+        print(("*" * (i * 2 + 1)).center(ilosc * 2 - 1))
+
+choinka(ilosc)
 
 
 
