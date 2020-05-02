@@ -12,19 +12,19 @@ które chce kupić. Wczytywanie danych i ich wyświetlenie zrealizuj za pomocą 
 
 class Bilety:
     def policz(self):
-        zm_1 = int(input("Proszę, podaj swój wiek : "))
-        zm_2 = int(input("Teraz podaj ile biletów chcesz kupić : "))
+        wiek = int(input("Proszę, podaj swój wiek : "))
+        ilosc = int(input("Teraz podaj ile biletów chcesz kupić : "))
 
-        if zm_1 < 6:
+        if wiek < 6:
             cena_1 = 0
-        elif zm_1 >= 7 and zm_1 <= 17:
+        elif wiek >= 7 and wiek <= 17:
             cena_1 = 2.28
-        elif zm_1 >= 18 and zm_1 <= 64:
+        elif wiek >= 18 and wiek <= 64:
             cena_1 = 3.80
         else:
             cena_1 = 1.90
 
-        suma_1 = cena_1 * zm_2
+        suma_1 = cena_1 * ilosc
 
         print(f"Do zapłaty za bilety jest {suma_1} zł.")
 
