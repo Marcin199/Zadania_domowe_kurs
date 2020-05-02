@@ -1,6 +1,6 @@
 #co jeśli we wtorek i 7dni naprawa itd..
 
-class szewc():
+class Szewc():
     def policz(self):
         zm_1 = input("Proszę, podaj w który dzień tygodnia oddałeś buty do naprawy ?")
         zm_2 = int(input("Proszę podaj, ile chcesz, żeby trwała naprawa ?"))
@@ -58,5 +58,5 @@ class szewc():
 
 
 
-szewc_1 = szewc()
+szewc_1 = Szewc()
 szewc_1.policz()
