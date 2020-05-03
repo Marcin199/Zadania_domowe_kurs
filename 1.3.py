@@ -2,11 +2,11 @@
 
 class Bmi:
     def policz(self):
-        wz_1 = float(input("Proszę podaj swój wzrost w (m) : "))
+        metry = float(input("Proszę podaj swój wzrost w (m) : "))
         wg_1 = float(input("Proszę podaj swoją wagę w (Kg) : "))
 
 
-        bmi = wg_1 / wz_1
+        bmi = wg_1 / metry / 2
         #print(bmi)
 
         wyglodzenie = 16.0
