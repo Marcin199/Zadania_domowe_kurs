@@ -36,7 +36,6 @@ while podejscia < 10:
         print('Twoja liczba jest za duża.')
     if zm_1 > zgadnij_liczbe:
         print('Twoja liczba jest za mała.')
-
     if zm_1 == zgadnij_liczbe:
         break
 
