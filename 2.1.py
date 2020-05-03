@@ -14,7 +14,6 @@ class Zagadka:
         druga_liczba = randint(0,100)
         wynik = pierwsza_liczba + druga_liczba
 
-
         print(f"Policz w głowie sumę tych dwóch liczb: {pierwsza_liczba} , {druga_liczba}")
 
         while True:
