@@ -14,11 +14,11 @@ Gdyby Burek był człowiekiem, miałby 15 lat.
 class WiekPsa:
     def policz(self):
 
-        zm_1 = input("Proszę, podaj imię psa : ")
-        zm_2 = int(input("Teraz podaj wiek psa : "))
-        zm_3 = zm_2*5
+        imie = input("Proszę, podaj imię psa : ")
+        wiek = int(input("Teraz podaj wiek psa : "))
+        lata = wiek*5
 
-        print(f"Gdyby {zm_1} był człowiekiem, miałby {zm_3} lat. ")
+        print(f"Gdyby {imie} był człowiekiem, miałby {lata} lat. ")
 
 WiekPsa_1 = WiekPsa()
 WiekPsa_1.policz()
