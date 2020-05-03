@@ -10,18 +10,22 @@ Program pyta o wynik wielokrotnie, tak długo, aż użytkownik poda prawidłowy 
 from random import*
 class Zagadka:
     def glowa(self):
-        zm_1 = randint(0,100)
-        zm_2 = randint(0,100)
-        wynik = zm_1 + zm_2
+        pierwsza_liczba = randint(0,100)
+        druga_liczba = randint(0,100)
+        wynik = pierwsza_liczba + druga_liczba
 
 
-        print(f"Policz w głowie sumę tych dwóch liczb: {zm_1} , {zm_2}")
+        print(f"Policz w głowie sumę tych dwóch liczb: {pierwsza_liczba} , {druga_liczba}")
 
         while True:
-            wy_1 = int(input("Podaj obliczony przez Ciebie wynik : "))
-            if wy_1 == wynik:
-                print("Brawo prawidłowo obliczyłeś sumę!")
-                break
+            try:
+                wy_1 = int(input("Podaj obliczony przez Ciebie wynik : "))
+                if wy_1 == wynik:
+                    print("Brawo prawidłowo obliczyłeś sumę!")
+                    break
+            except:
+                print("Nie podałeś liczby")
+
 
 Zagadka_1 = Zagadka()
 Zagadka_1.glowa()
